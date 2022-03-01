@@ -16,7 +16,8 @@
 % Change the fonts if you want
 \ifxetexorluatex % If you're using XeLaTeX or LuaLaTeX
   \usepackage{fontspec} 
-  %% You can use \setmainfont etc; I'm just using these font packages here because they provide OpenType fonts for use by XeLaTeX/LuaLaTeX anyway
+  %% You can use \setmainfont etc; I'm just using these font packages here because they provide
+  %% OpenType fonts for use by XeLaTeX/LuaLaTeX anyway
   \usepackage[p,osf,swashQ]{cochineal}
   \usepackage[medium,bold]{cabin}
   \usepackage[varqu,varl,scale=1]{zi4}
@@ -30,7 +31,8 @@
 %% Only needed if you want a Publication List
 \addbibresource{own-bib.bib}
 
-%% Specify your last name and first name (as given in the .bib) to automatically bold your own name in the publications list. One caveat: You need to write \bibnamedelima where there's a space in your name for this to work properly for now...
+%% Specify your last name and first name (as given in the .bib) to automatically bold your own name in the publications list.
+%% One caveat: You need to write \bibnamedelima where there's a space in your name for this to work properly for now...
 \myname{Lim}{Lian\bibnamedelima Tze}
 % \myname{d'Andrimont}{Raphaël}
 
@@ -77,6 +79,7 @@
 \makerubric{education}
 \makerubric{research}
 \makerubric{employment}
+\makerubric{mentoring}
 % If you're not a researcher nor an academic, you probably don't have any publications;
 % delete this line.
 %% Sometimes when a section can't be nicely modelled with the \entry[]... mechanism;
@@ -84,7 +87,7 @@
 \input{publications}
 \input{presentations}
 \makerubric{skills}
-\makerubric{misc}
+\makerubric{awards_cert}
 
 %\makerubric{referee}
 % \input{referee-full}
