@@ -1,0 +1,45 @@
+\documentclass[12pt]{letter}
+
+\usepackage[top=1.56in,left=0.9in,right=0.9in,bottom=2.03in,head=36pt,foot=81pt]{geometry}
+% packages
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+
+% Manually set margins
+\setlength{\parskip}{0.4em}
+\setlength{\headsep}{1em}
+
+% set up fancyhdr
+\fancypagestyle{uciletter}
+{
+  % headers
+  \lhead{\hspace{-0.6in}\includegraphics[width=2.5in]{uci-stacked-wordmark-blue.pdf}}
+  \rhead{Brian D. Nguyen \\ {\small PhD in Theoretical and Computational Chemistry}}
+
+  % footers
+  \lfoot{\hspace{-0.7in}\begin{minipage}[l]{2.in}\includegraphics[width=2.in]{seal-grey.pdf}\end{minipage}}
+  \cfoot{\begin{minipage}[c]{2.in}Department of Chemistry \\ 2206 Natural Sciences 2 \\ Irvine, CA 92697-2025\end{minipage}}
+  \rfoot{\begin{minipage}[r]{1.2in}(714) 204-6033 \\ bdnguye2@uci.edu\end{minipage}}
+
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+\signature{\vspace{-3.5em} Brian D. Nguyen
+  \\ {\small PhD in Theoretical and Computational Chemistry}}
+\pagestyle{uciletter}
+
+\begin{document}
+\begin{letter}{Bristol Myers Squibb \\ Clinton, NY}
+
+\opening{Dear Dat Nghiem,}
+
+
+
+\thispagestyle{uciletter}
+
+\closing{Sincerely,}
+
+\end{letter}
+\end{document}
