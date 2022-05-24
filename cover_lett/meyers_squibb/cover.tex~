@@ -1,0 +1,74 @@
+\documentclass[12pt]{letter}
+
+\usepackage[top=1.56in,left=0.9in,right=0.9in,bottom=2.03in,head=36pt,foot=81pt]{geometry}
+% packages
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+
+% Manually set margins
+\setlength{\parskip}{0.4em}
+\setlength{\headsep}{1em}
+
+% set up fancyhdr
+\fancypagestyle{uciletter}
+{
+  % headers
+  \lhead{\hspace{-0.6in}\includegraphics[width=2.5in]{uci-stacked-wordmark-blue.pdf}}
+  \rhead{Philip J. Fry \\ {\small Delivery Boy}}
+
+  % footers
+  \lfoot{\hspace{-0.7in}\begin{minipage}[l]{2.in}\includegraphics[width=2.in]{seal-grey.pdf}\end{minipage}}
+  \cfoot{\begin{minipage}[c]{2.in}Department of Chemistry \\ 1102 Natural Sciences 2 \\ Irvine, CA 92697-2025\end{minipage}}
+  \rfoot{\begin{minipage}[r]{1.2in}(949) 824-0674 \\ fry@uci.edu\end{minipage}}
+
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+\signature{\vspace{-3.5em} Philip J. Fry}
+\pagestyle{uciletter}
+
+\begin{document}
+\begin{letter}{Bender Bending Rodriguez \\ New York, NY}
+
+\opening{Dear Bender:}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan,
+neque in pharetra aliquet, mauris est posuere ipsum, id luctus elit sapien
+quis lectus. Sed vestibulum eros risus, ut rutrum ante molestie sit amet. Nam
+quis purus dui. Phasellus quis est ut tellus commodo porta. Aenean eget justo
+lacinia, sollicitudin augue eget, varius nisl. Proin porta quam eget elit
+vehicula dignissim. Fusce eget mattis neque, vitae mollis ex. Suspendisse
+felis odio, venenatis ac semper non, aliquet non elit. Morbi suscipit felis
+ut tortor aliquam, vitae pretium orci imperdiet. Vestibulum imperdiet
+hendrerit suscipit. Donec faucibus scelerisque lorem, eget tincidunt mauris
+finibus eu. Cras arcu ipsum, sodales at eros ut, lobortis pharetra velit.
+Donec nec molestie purus. Nam in leo lorem.
+
+Donec suscipit turpis a tincidunt aliquet. Sed aliquet est metus, et pretium
+dui interdum at. Nulla pharetra odio at ipsum sodales elementum. Nunc dolor
+lorem, posuere at tellus quis, vestibulum varius tortor. Sed id tellus sed
+augue dignissim suscipit. In eget turpis quis dolor fermentum iaculis.
+Maecenas luctus enim tortor, vel sollicitudin eros tristique consequat.
+
+Nulla ac ligula nec tortor tincidunt elementum. Sed fermentum lobortis nisl,
+vel ornare est facilisis sed. Etiam tellus justo, facilisis maximus sem eu,
+tincidunt semper urna. Ut tristique dui sed eros venenatis vulputate.
+Suspendisse a ipsum eget sapien aliquet commodo. Nunc pellentesque ut nibh
+sit amet viverra. Ut mollis, tortor et accumsan varius, nisi dui convallis
+purus, tristique commodo quam arcu vel tortor.
+
+Vivamus in rhoncus magna. Etiam eros dolor, mattis sed accumsan et, tempor et
+neque. Nam lorem neque, faucibus non scelerisque tincidunt, pharetra vel
+nibh. Sed at feugiat sem. Fusce vulputate metus et odio malesuada malesuada.
+Vestibulum sagittis placerat hendrerit. Suspendisse potenti. Suspendisse vel
+porta metus, sed facilisis ligula. Praesent imperdiet quam nunc, eget congue
+enim pulvinar hendrerit. Vestibulum sit amet imperdiet neque, eget porta
+arcu. Etiam luctus scelerisque est ac aliquam.
+
+\thispagestyle{uciletter}
+
+\closing{Sincerely,}
+
+\end{letter}
+\end{document}
